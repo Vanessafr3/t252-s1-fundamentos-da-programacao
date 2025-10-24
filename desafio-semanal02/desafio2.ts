@@ -5,12 +5,12 @@ type Filme = {
   
  const filmes: Filme[] = [
     { titulo: "Vingadores", nota: 7 },
-    { titulo: "Avatar", nota: 8 },
-    { titulo: "Interestelar", nota: 9 },
-    { titulo: "Vingadores", nota: 7 },
-    { titulo: "O Senhor dos Anéis", nota: 9 },
-    { titulo: "Harry Potter", nota: 8 },
-    { titulo: "Pantera Negra", nota: 7 },
+    { titulo: "Joao e Maria", nota: 10 },
+    { titulo: "Doze é demais", nota: 9 },
+    { titulo: "Velozes e Furiosos", nota: 10 },
+    { titulo: "Carros", nota: 8},
+    { titulo: "Tubarões", nota: 7 },
+    { titulo: "Procurando Nemo", nota: 9 },
     { titulo: "Homem de Ferro", nota: 8 }
   ];
   
@@ -51,7 +51,7 @@ function compararFilmes(filmeA: Filme, filmeB: Filme): Filme {
   
   
   if (segundaFase.length < 2) {
-    throw new Error("Semifinal não produziu doi finalistas.");
+    throw new Error("Semifinal não produziu dois finalistas.");
   }
   const finalista1 = segundaFase[0]!;
   const finalista2 = segundaFase[1]!;
