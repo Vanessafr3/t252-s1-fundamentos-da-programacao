@@ -4,7 +4,7 @@ type Filme = {
   };
   
  const filmes: Filme[] = [
-    { titulo: "Matrix", nota: 9 },
+    { titulo: "Vingadores", nota: 7 },
     { titulo: "Avatar", nota: 8 },
     { titulo: "Interestelar", nota: 9 },
     { titulo: "Vingadores", nota: 7 },
